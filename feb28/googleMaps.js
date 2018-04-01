@@ -17,7 +17,6 @@ function getMapsData() {
       // using .map() over the array of results to print out a little message about each result
       googleData.map(datum => {
         console.log(datum.name + " has a rating of " + datum.rating);
-        console.log(datum.name);
       });
     })
     .catch(error => {
